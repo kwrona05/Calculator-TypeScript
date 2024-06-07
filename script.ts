@@ -12,28 +12,28 @@ const paragraph = document.querySelector('.result')
 function plus() {
     if(number1 && number2 && paragraph) {
     const result = parseFloat(number1.value) + parseFloat(number2.value)
-    paragraph.textContent = result
+    paragraph.textContent = result.toString()
     }
 }
 
 function minus() {
     if(number1 && number2 && paragraph) {
     const result = parseFloat(number1.value) - parseFloat(number2.value)
-    paragraph.textContent = result
+    paragraph.textContent = result.toString()
     }
 }
 
 function multiply() {
     if(number1 && number2 && paragraph) {
     const result = parseFloat(number1.value) * parseFloat(number2.value)
-    paragraph.textContent = result
+    paragraph.textContent = result.toString()
     }
 }
 
 function divide() {
     if(number1 && number2 && paragraph) {
     const result = parseFloat(number1.value) / parseFloat(number2.value)
-    paragraph.textContent = result
+    paragraph.textContent = result.toString()
     }
 }
 
